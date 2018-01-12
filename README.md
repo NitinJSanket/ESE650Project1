@@ -1,7 +1,7 @@
 # Colored Barrel Detection Using Gaussian Mixture Model based Color Segmentation
 
 ## Problem Statement
-Given a set of training images in the folder [Train](Train) with the file names as the distance to the barrel in meters, find the distance to all the barrels in each [Test](Test) image.
+Given a set of training images in the folder [Train](Train) with the file names as the distance to the barrel in meters, locate all the barrels and find the distance to them from the camera in each [Test](Test) image.
 
 ## Usage Guide:
 1.  Run `Wrapper.m`
@@ -10,6 +10,7 @@ Given a set of training images in the folder [Train](Train) with the file names 
 4. If you have any questions or queries feel free to raise an issue.
 
 ## Sample Input and Outputs:
+Yellow highlights show the candidate red regions and green highlights show the candidate red barrel regions.
 ![Input](Test/001.png)![Output](TestOutputs/YCbCr1.jpg)
 ![Input](Test/002.png)![Output](TestOutputs/YCbCr2.jpg)
 ![Input](Test/003.png)![Output](TestOutputs/YCbCr3.jpg)
