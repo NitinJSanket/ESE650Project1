@@ -14,7 +14,7 @@ You can find the report [here](Report/ESE650Project1.pdf).
 
 ## Sample Input and Outputs:
 Yellow highlights show the candidate red regions and green highlights show the candidate red barrel regions.
-<img src="Test/001.png" width="480"><img src="TestOutputs/YCbCr1.jpg" width="480">
+<img src="Test/001.png" width="240"><img src="TestOutputs/YCbCr1.jpg" width="240">
 ![Input](Test/002.png)![Output](TestOutputs/YCbCr2.jpg)
 ![Input](Test/003.png)![Output](TestOutputs/YCbCr3.jpg)
 ![Input](Test/004.png)![Output](TestOutputs/YCbCr4.jpg)
