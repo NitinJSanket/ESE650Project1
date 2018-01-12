@@ -33,6 +33,7 @@ for i = 1:length(ImgNames)
         error('Enter Valid Color Space: YCbCr or rYb or RGB');
     end
     
+    
     MaskNow = im2double(imread([TrainMaskPath,'/M',ImgNames(i).name]));
     Stats = regionprops(MaskNow, 'PixelList'); % Returns X and Y
     MaskedImg = RGBMask(ImgNow,MaskNow,0);
@@ -70,7 +71,7 @@ for k = 1:K
     A(:,:,k) = cov(RGBVals(Labels==k,:));
 end
 Mean = Mean'; % Matlab's K means is transpose of the Means I have
-% Mixture Coeff
+Mixture Coeff
 GMMC = 1./K.*ones(1,K);
 
 RGBValsStacked = repmat(RGBVals, 1,1,K);
