@@ -9,6 +9,9 @@ Given a set of training images in the folder [Train](Train) with the file names 
 3. To train, Set `TrainFlag = 1`, switched off by default. 
 4. If you have any questions or queries feel free to raise an issue.
 
+## Report:
+You can find the report [here](Report/ESE650Project1.pdf).
+
 ## Sample Input and Outputs:
 Yellow highlights show the candidate red regions and green highlights show the candidate red barrel regions.
 ![Input](Test/001.png)![Output](TestOutputs/YCbCr1.jpg)
